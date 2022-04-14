@@ -19,20 +19,35 @@ body {
   place-items: center;
 }
 
-.banner{
-    background: #fff;
-    width: 36.5rem;
-    height: 16.5rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
+.banner {
+  background: #fff;
+  width: 36.5rem;
+  height: 16.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.banner h1{
-    padding-top: 3.7rem;
-    letter-spacing: 0.3rem;
-    font-size: 2.8rem;
+.banner h1 {
+  padding-top: 3.7rem;
+  letter-spacing: 0.25rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: hsl(209, 61%, 16%);
 }
-.modal-overlay{
-    position: fixed;
+
+.modal-btn {
+  margin-top: 2.8rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #fff;
+  background: #49a6e9;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.modal-overlay {
+  position: fixed;
 }
