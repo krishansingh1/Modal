@@ -15,4 +15,12 @@ body {
 .hero {
   min-height: 100vh;
   background: url(./hero.jpeg) center/cover no-repeat;
+  display: grid;
+  place-items: center;
+}
+
+.banner{
+    background: #fff;
+    padding: 6rem 11.5rem;
+    border-radius: 1rem;
 }
