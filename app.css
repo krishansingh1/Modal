@@ -21,23 +21,24 @@ body {
 
 .banner {
   background: #fff;
-  width: 36.5rem;
-  height: 16.5rem;
+  padding: 4.2rem 0;
+  width: 90vw;
+  height: 18.4rem;
   border-radius: 0.5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
+  max-width: 650px;
 }
 
 .banner h1 {
-  padding-top: 3.7rem;
   letter-spacing: 0.25rem;
-  font-size: 3rem;
+  font-size: 3.3rem;
   text-transform: capitalize;
   color: hsl(209, 61%, 16%);
+  padding-bottom: 2.8rem;
 }
 
 .modal-btn {
-  margin-top: 2.8rem;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -45,9 +46,25 @@ body {
   background: #49a6e9;
   padding: 0.5rem 0.8rem;
   border-radius: 0.5rem;
-  border: 2px solid #49a6e9;
+  border: 3px solid #49a6e9;
   cursor: pointer;
   transition: all 0.3s linear;
+}
+
+@media screen and (min-width: 800px) {
+  .banner {
+    max-width: 690px;
+    padding: 3.5rem 0;
+  }
+  .banner h1 {
+    font-size: 4.5rem;
+  }
+
+  .modal-btn {
+    margin-top: 2.3rem;
+    /* padding: 0.4rem 1rem; */
+    font-size: 1rem;
+  }
 }
 
 .modal-btn:hover {
