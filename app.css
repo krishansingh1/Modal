@@ -11,3 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.hero {
+  min-height: 100vh;
+  background: url(./hero.jpeg) center/cover no-repeat;
+}
