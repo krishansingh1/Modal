@@ -74,11 +74,13 @@ body {
 
 .modal-overlay {
   /* position: fixed; */
+}
+
+.modal-button {
   display: flex;
-  place-items: center;
+  justify-content: flex-end;
 }
 
 .modal-container {
-  display: block;
-  align-items: center;
+  text-align: center;
 }
