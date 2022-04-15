@@ -73,5 +73,12 @@ body {
 }
 
 .modal-overlay {
-  position: fixed;
+  /* position: fixed; */
+  display: flex;
+  place-items: center;
+}
+
+.modal-container {
+  display: block;
+  align-items: center;
 }
